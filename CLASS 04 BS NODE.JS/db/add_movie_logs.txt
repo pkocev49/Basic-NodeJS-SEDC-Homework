@@ -1,0 +1,19 @@
+
+        Movie with name BatMan was added at function toLocaleString() { [native code] }
+        ________________________________________________________
+    
+        Movie with name KUR was added at function toLocaleString() { [native code] }
+        ________________________________________________________
+    
+        Movie with name KUR was added at 6.3.2023, во 18:33:08
+        ________________________________________________________
+    
+        Movie with name KUR was added at 6.3.2023, во 18:33:12
+        _______________________________________________________________
+    
+        Movie with name DASDASDs was added at 6.3.2023, во 18:33:22
+        _______________________________________________________________
+    
+        Movie with name DASDASDs was added at 6.3.2023, во 20:06:10
+        _______________________________________________________________
+    

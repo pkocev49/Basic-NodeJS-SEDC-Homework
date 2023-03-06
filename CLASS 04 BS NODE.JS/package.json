@@ -1,0 +1,16 @@
+{
+  "name": "class-o4-bs-node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch app.js"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "uuid": "^9.0.0"
+  }
+}
