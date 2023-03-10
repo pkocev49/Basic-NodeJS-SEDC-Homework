@@ -8,8 +8,6 @@ router.get("/", (req, res) => {
 });
 
 router.post("/create", (req, res) => {
-  // res.send("<h1>KUR KUR</h1>");
-
   const body = req.body;
   console.log(body);
 
