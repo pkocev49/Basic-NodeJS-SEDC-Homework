@@ -9,3 +9,7 @@ Request on route/cart/0cf2bf67-5dd8-46a5-b824-55046ea08fd2 products was made at 
  Request on route/create products was made at 10.3.2023, во 18:42:59
  Request on route/create products was made at 10.3.2023, во 18:43:09
  Request on route/create products was made at 10.3.2023, во 18:43:13
+ Request on route/product products was made at 11.3.2023, во 00:34:14
+ Request on route/create products was made at 11.3.2023, во 00:34:39
+ Request on route/create products was made at 11.3.2023, во 00:35:30
+ Request on route/create products was made at 11.3.2023, во 00:37:35

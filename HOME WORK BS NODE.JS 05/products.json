@@ -30,5 +30,13 @@
     "rating": "Good",
     "description": "Intel Core i3-9100f boost clock 4.2Ghz",
     "isInStock": true
+  },
+  {
+    "id": "dce25a3c-cef2-4d65-9300-baff11e66d41",
+    "name": "Intel core i3-9100f ",
+    "price": "110$",
+    "rating": "Good",
+    "description": "Intel Core i3-9100f boost clock 4.2Ghz",
+    "isInStock": true
   }
 ]
