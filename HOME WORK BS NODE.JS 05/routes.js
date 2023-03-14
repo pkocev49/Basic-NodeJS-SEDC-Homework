@@ -68,12 +68,15 @@ router.delete("/delete_all", (req, res) => {
   const products = JSON.parse(
     fs.readFileSync("./products.json", { encoding: "utf-8" })
   );
-  const prDelete = req.params.product;
-  if (prDelete !== -1) {
-    products.splice(prDelete);
-    fs.writeFileSync("./products.json", JSON.stringify(products, null, 2));
-    res.send({ message: "Product deleted successfully" });
-  }
+  // const prDelete = req.params.product;
+  // if (prDelete !== -1) {
+  //   products.splice(prDelete);
+  //   fs.writeFileSync("./products.json", JSON.stringify(products, null, 2));
+  //   res.send({ message: "Product deleted successfully" });
+  // }
+  products.length = 0;
+  fs.writeFileSync("./products.json", JSON.stringify(products, null, 2));
+  res.send({ message: "Products were deleted successfully" });
 });
 
 router.put("/inStock/:id", (req, res) => {
@@ -115,7 +118,6 @@ router.put("/productsEdit/:id", (req, res) => {
 // BONUS
 
 router.post("/cart/:id", (req, res) => {
-  // res.send("<h1>KUR KUR</h1>");
   const id = req.params.id;
 
   const products = JSON.parse(

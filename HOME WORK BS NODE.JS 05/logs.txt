@@ -13,3 +13,34 @@ Request on route/cart/0cf2bf67-5dd8-46a5-b824-55046ea08fd2 products was made at 
  Request on route/create products was made at 11.3.2023, во 00:34:39
  Request on route/create products was made at 11.3.2023, во 00:35:30
  Request on route/create products was made at 11.3.2023, во 00:37:35
+ Request on route/ products was made at 14.3.2023, во 18:03:05
+ Request on route/favicon.ico products was made at 14.3.2023, во 18:03:06
+ Request on route/ products was made at 14.3.2023, во 18:03:06
+ Request on route/create products was made at 14.3.2023, во 18:07:28
+ Request on route/create products was made at 14.3.2023, во 18:07:38
+ Request on route/create products was made at 14.3.2023, во 18:08:22
+ Request on route/create products was made at 14.3.2023, во 18:08:30
+ Request on route/create products was made at 14.3.2023, во 18:08:33
+ Request on route/create products was made at 14.3.2023, во 18:08:50
+ Request on route/create products was made at 14.3.2023, во 18:09:02
+ Request on route/create products was made at 14.3.2023, во 18:09:08
+ Request on route/delete_all products was made at 14.3.2023, во 18:10:32
+ Request on route/create products was made at 14.3.2023, во 18:12:16
+ Request on route/create products was made at 14.3.2023, во 18:12:20
+ Request on route/create products was made at 14.3.2023, во 18:12:23
+ Request on route/delete_all products was made at 14.3.2023, во 18:18:52
+ Request on route/delete_all products was made at 14.3.2023, во 18:19:17
+ Request on route/delete_all products was made at 14.3.2023, во 18:19:17
+ Request on route/delete_all products was made at 14.3.2023, во 18:19:17
+ Request on route/delete_all products was made at 14.3.2023, во 18:19:17
+ Request on route/delete_all products was made at 14.3.2023, во 18:19:17
+ Request on route/delete_all products was made at 14.3.2023, во 18:19:24
+ Request on route/create products was made at 14.3.2023, во 18:19:31
+ Request on route/create products was made at 14.3.2023, во 18:19:32
+ Request on route/create products was made at 14.3.2023, во 18:19:32
+ Request on route/create products was made at 14.3.2023, во 18:19:33
+ Request on route/delete_all products was made at 14.3.2023, во 18:19:44
+ Request on route/create products was made at 14.3.2023, во 18:22:59
+ Request on route/create products was made at 14.3.2023, во 18:22:59
+ Request on route/create products was made at 14.3.2023, во 18:23:00
+ Request on route/delete_all products was made at 14.3.2023, во 18:23:06
