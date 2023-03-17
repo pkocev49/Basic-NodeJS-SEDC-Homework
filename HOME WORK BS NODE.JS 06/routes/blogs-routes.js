@@ -62,11 +62,11 @@ blogsRouter.get("/tags", async (req, res) => {
   //http://localhost:3000/blogs/tags?tags=games the url
   const bTags = await blogController.findTags(tags);
 
-  if (bTags.length != 0) {
-    res.status(200).send(bTags);
-  } else {
-    res.status(404).send(`There are you posts with this tag:${tags}`);
-  }
+  // if (bTags.length != 0) {
+  res.status(200).send(bTags);
+  // } else {
+  // res.status(404).send(`There are you posts with this tag:${tags}`);
+  // }
 });
 
 export default blogsRouter;

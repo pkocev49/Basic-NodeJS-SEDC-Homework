@@ -53,15 +53,30 @@ class BlogModel {
       return false;
     }
   }
+  // async findTags(tags) {
+  //   const rawBlogs = await fileService.readFile("./db/blogs.json");
+  //   const blogs = JSON.parse(rawBlogs);
+  //   const filteredBlogs = blogs.filter((blog) => {
+  //     const blogTags = blog.tags.map((tag) => tag.toLowerCase());
+  //     const searchTag = tags.split(",").map((tag) => tag.trim().toLowerCase());
+  //     return searchTag.every((tag) => blogTags.includes(tag));
+  //   });
+  //   return filteredBlogs;
+  // }
+  // Seccond awnser>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
   async findTags(tags) {
     const rawBlogs = await fileService.readFile("./db/blogs.json");
     const blogs = JSON.parse(rawBlogs);
-    const filteredBlogs = blogs.filter((blog) => {
-      const blogTags = blog.tags.map((tag) => tag.toLowerCase());
-      const searchTag = tags.split(",").map((tag) => tag.trim().toLowerCase());
-      return searchTag.every((tag) => blogTags.includes(tag));
-    });
-    return filteredBlogs;
+    const findTags = blogs.filter((blog) => blog.tags.includes(tags));
+    if (findTags.length > 0) {
+      await fileService.writeFile(
+        "./db/blogs.json",
+        JSON.stringify(blogs, null, 2)
+      );
+      return { success: true, findTags };
+    } else {
+      return { success: false, message: "No matching blogs found" };
+    }
   }
 }
 
