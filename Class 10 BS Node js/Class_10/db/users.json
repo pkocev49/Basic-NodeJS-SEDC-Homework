@@ -1,0 +1,10 @@
+[
+  {
+    "id": "73296687-248d-4dca-93b9-a880e53c6f35",
+    "username": "Bob11",
+    "password": "$2a$08$vvt4ru72eakYCNFp9kFBVOXzQzHd17ShrDFsTfYC2vFAgtoq7R.bq",
+    "refreshToken": [
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQm9iMTEiLCJpZCI6IjczMjk2Njg3LTI0OGQtNGRjYS05M2I5LWE4ODBlNTNjNmYzNSIsImlhdCI6MTY3OTY3OTEwMX0.j-fDm83uNSKc0C9pfFU-qlZjs4usqDBpKxNwHFAUlz0"
+    ]
+  }
+]

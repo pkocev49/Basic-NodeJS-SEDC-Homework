@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1",
+        "type":"CPU",
+        "name":"intel-core i3 9100f",
+        "price":"100 dolars"
+    },
+    {
+        "id":"2",
+        "type":"CPU",
+        "name":"intel-core i5 11400f",
+        "price":"100 dolars"
+    },
+     {
+        "id":"3",
+        "type":"CPU",
+        "name":"intel-core i7 9700f",
+        "price":"100 dolars"
+    }
+]
